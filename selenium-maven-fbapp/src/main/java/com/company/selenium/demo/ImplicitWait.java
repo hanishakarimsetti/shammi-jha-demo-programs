@@ -19,7 +19,7 @@ public class ImplicitWait {
 		
 		// Launching Chrome Browser Instance
 		WebDriver driver = new ChromeDriver();
-        driver.get("https://www.google.com/");
+                driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		
 		//Implicit Wait
